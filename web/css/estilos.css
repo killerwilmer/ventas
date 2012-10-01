@@ -1,0 +1,57 @@
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #03476F;
+  font: normal 12px verdana, arial, helvetica, sans-serif;
+  color: #363636;
+  background: #FFFFFF;
+  }
+
+td, th {
+  border: 1px dotted #03476F;
+  padding: .4em;
+  color: #363636;
+  }
+
+
+tbody td a {
+  background: transparent;
+  text-decoration: none;
+  color: #363636;
+  }
+tbody td a:hover {
+   color: #363636;
+  }
+
+tbody th a:hover {
+  background: transparent;
+  color: #CCCCCC;
+  }
+tbody th, tbody td {
+  vertical-align: top;
+  text-align: left;
+  }
+
+tbody tr:hover {
+  background: #F0F0F0;
+  border: 1px solid #03476F;
+  color: #FFFFFF;
+  }
+
+
+input:FOCUS {
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+SELECT:FOCUS {
+    border-style: solid;
+    border-color: greenyellow;
+}
+.texto{
+    background-color: #CCCCCC;
+}
+
+body{
+    background: #cccccc;
+}

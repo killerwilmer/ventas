@@ -1,0 +1,7 @@
+* reiniciar una sequencia serial a una tabala postgresql
+	ALTER SEQUENCE compras_cod_compra_seq restart 1; //donde compras_cod_compra_seq es el nombre de la secuecia
+
+* DROP SEQUENCE foo; para borrarla donde foo es el nombre de la secuencia
+
+* like con where
+	select p.cod_producto,p.des_producto,s.val_venta from productos as p, stoc as s where p.des_producto like('%man%') and p.cod_producto=s.cod_producto
